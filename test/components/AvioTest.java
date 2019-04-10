@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package component;
+package components;
 
 import org.junit.After;
 import org.junit.AfterClass;
@@ -18,22 +18,13 @@ import static org.junit.Assert.*;
  */
 public class AvioTest {
     
-    public AvioTest() {
-    }
-    
-    @BeforeClass
-    public static void setUpClass() {
-    }
-    
-    @AfterClass
-    public static void tearDownClass() {
-    }
+    private Avio objecteProva; 
     
     @Before
     public void setUp() {
     }
     
-    @After
+    @Test
     public void tearDown() {
     }
 
